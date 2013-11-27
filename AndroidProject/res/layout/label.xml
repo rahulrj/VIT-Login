@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+      android:text="Label"  
+      android:textSize="20dp"
+      android:background="@drawable/yourdrawable"
+        />
+      <TextView
+    android:layout_width="match_parent"
+    android:layout_height="1dp"  
+    android:background="#000000"
+        />
+      <EditText
+      android:layout_marginTop="10dp"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"  
+       android:id="@+id/edit_text"/>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+    <Button
+        android:layout_width="130dp"
+    android:layout_height="40dp"  
+    android:text="OK"
+    android:id="@+id/ok"
+    android:layout_alignParentLeft="true"
+    android:background="@drawable/yourdrawable"
+        />
+     <Button
+        android:layout_width="130dp"
+    android:layout_height="40dp"  
+    android:text="CANCEL"
+    android:id="@+id/cancel"
+    android:background="@drawable/yourdrawable"
+    android:layout_alignParentRight="true"
+        />
+   
+   </RelativeLayout>   
+
+</LinearLayout>

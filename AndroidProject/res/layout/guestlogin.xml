@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    
+      android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:background="#fffafa"
+    >  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingLeft="20dp"
+    android:paddingRight="30dp"
+    android:paddingTop="50dp"
+    >
+    <EditText 
+      android:layout_width="match_parent"
+    android:layout_height="50dp"
+    
+   
+     android:background="@drawable/yourdrawable5"
+     
+    android:hint="Reg No"
+    android:gravity="center"
+   android:id="@+id/regno"/>
+     <EditText 
+      android:layout_width="match_parent"
+    android:layout_height="50dp"
+  
+   android:layout_marginTop="10dp"
+    android:hint="DOB"
+    android:gravity="center"
+    android:background="@drawable/yourdrawable5"
+   android:id="@+id/password"/>
+        <EditText 
+            android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:inputType="textCapCharacters"
+     android:background="@drawable/yourdrawable5"
+   android:id="@+id/putcaptcha"/>
+  
+      <ImageView
+      android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="10dp"
+   android:id="@+id/captcha"/>
+       <Button 
+      android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Login"
+    android:layout_marginTop="10dp"
+    android:textSize="20dp"
+    android:background="@drawable/yourdrawable3"
+    android:textColor="#ffffff"
+    android:gravity="center"
+   android:id="@+id/clic"/>
+
+           
+
+</LinearLayout>
+</ScrollView>

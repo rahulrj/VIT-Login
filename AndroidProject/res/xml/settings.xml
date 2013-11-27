@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+   
+    >
+
+  
+    
+    <PreferenceCategory android:title="Settings" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="silent"
+            android:summary="Turn off your mobile automatically during your class time"
+            android:title="Silent Mode" >
+        </CheckBoxPreference>
+          <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="quiz"
+            android:summary="Get Notifications for Quizes"
+            android:title="Notifications for Quiz" >
+        </CheckBoxPreference>
+          <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="attendance"
+            android:summary="Get Notifications for Low Attendance"
+            android:title="Notification for Low Attendance" >
+        </CheckBoxPreference>
+            <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="mark"
+            android:summary="Get attendnce,notifications according to values enterd by you.Check off for the default attendance by faculties"
+            android:title="Mark Attendance" >
+        </CheckBoxPreference>
+        
+            
+            
+            
+          
+
+          </PreferenceCategory>
+
+</PreferenceScreen>

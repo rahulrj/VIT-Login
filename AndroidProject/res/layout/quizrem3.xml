@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent" >
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentTop="true"
+    android:id="@+id/first"
+    android:background="@drawable/yourdrawable" >
+     <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Add Reminder"
+    android:textStyle="bold"
+    android:paddingTop="10dp"
+    android:paddingLeft="2dp"
+    android:textSize="20dp" />
+       <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="View All "
+    android:id="@+id/viewrem"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="10dp"
+    android:textSize="20dp"
+    android:background="@drawable/yourdrawable3"
+    android:layout_alignParentRight="true"
+   
+    />
+     </RelativeLayout>
+   <ScrollView 
+         android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#ffffff"
+    android:layout_below="@+id/first"
+    >
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+     
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+  
+    android:orientation="vertical" >
+      <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Subject"
+   android:textSize="18dp"
+   android:textColor="#000000"
+   android:id="@+id/selsubq"
+    />
+         <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textColor="#000000"
+    android:id="@+id/displaysubq"
+    />
+      
+           
+       </LinearLayout>
+         <TextView
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:text=""
+    android:background="#000000"
+    />
+       
+       
+         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical" >
+      <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Category"
+   android:textSize="18dp"
+    android:textColor="#000000"
+    android:id="@+id/selcatq"
+    />
+         <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textColor="#000000"
+    android:id="@+id/displaycatq"
+    />
+      
+           
+       </LinearLayout>
+            <TextView
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:text="Processing"
+    android:background="#000000"
+    />
+    
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical" >
+      <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Date and Time"
+   android:textSize="18dp"
+    android:textColor="#000000"
+    android:id="@+id/seldateandtimeq"
+    />
+         <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textColor="#000000"
+    android:id="@+id/displaydatetime"
+    />
+      
+           
+       </LinearLayout>
+            <TextView
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:text="Processing"
+    android:background="#000000"
+    />
+    
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    
+    android:orientation="vertical" >
+      <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Label"
+   android:textSize="18dp"
+    android:id="@+id/selectlabel"
+   android:textColor="#000000"
+    />
+         <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+   
+       android:id="@+id/displaylabel"
+    android:textColor="#000000"
+    />
+      
+           
+       </LinearLayout>
+       <TextView
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:text=""
+ 
+    android:background="#000000"
+    />
+    
+       </LinearLayout>
+   </ScrollView> 
+   
+    
+     <Button
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="Done"
+    android:background="@drawable/yourdrawable"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:id="@+id/addrem"
+    android:layout_alignParentBottom="true"/>
+     </RelativeLayout>

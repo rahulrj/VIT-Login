@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+     <Button
+       
+        android:layout_width="match_parent"
+        android:layout_height="55px"
+        android:text="Subject"
+        android:paddingTop="10dp"
+        android:textColor="#ffffff"
+        android:textSize="15px"
+        android:background="@drawable/yourdrawable"/>
+         <com.googlecode.android.widgets.DateSlider.ObservableScrollView2 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#ffffff"
+       
+    android:id="@+id/check1"
+   > 
+     
+        <com.googlecode.android.widgets.DateSlider.ObservableScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll_subjectname">
+  
+  
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:id="@+id/scroll_linear3"
+    >
+      </LinearLayout>   
+    </com.googlecode.android.widgets.DateSlider.ObservableScrollView>
+     </com.googlecode.android.widgets.DateSlider.ObservableScrollView2>
+   
+     </LinearLayout>
+   
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+     <com.googlecode.android.widgets.DateSlider.ObservableScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll_dates"
+    android:paddingLeft="10dp"
+      android:background="@drawable/yourdrawable"
+   >
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:id="@+id/scroll_linear"
+    >
+      </LinearLayout>
+  
+    </com.googlecode.android.widgets.DateSlider.ObservableScrollView>
+     <com.googlecode.android.widgets.DateSlider.ObservableScrollView2 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#ffffff"
+    android:id="@+id/check2"
+   > 
+    <com.googlecode.android.widgets.DateSlider.ObservableScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll_subjects"
+   >
+  
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:id="@+id/scroll_linear2"
+    >
+      </LinearLayout>   
+    </com.googlecode.android.widgets.DateSlider.ObservableScrollView>
+    </com.googlecode.android.widgets.DateSlider.ObservableScrollView2>
+</LinearLayout>
+</LinearLayout>

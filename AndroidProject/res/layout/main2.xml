@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+  
+    
+  
+     <ViewFlipper
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/flip">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:paddingTop="10dp"
+     android:background="@drawable/yourdrawable"
+    android:orientation="vertical" >
+
+   
+          <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/faculty"
+        android:id="@+id/right1"
+        android:background="@drawable/yourdrawable"
+        android:layout_alignParentRight="true"
+        android:textSize="18dp"
+        android:layout_below="@+id/click"></TextView>
+        
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/examschedule"
+          android:background="@drawable/yourdrawable"
+        android:id="@+id/middle1"
+        android:textSize="18dp"
+         android:layout_centerInParent="true"></TextView>
+            </RelativeLayout>
+             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+            
+ <ListView
+            android:id="@+id/exam_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="2dp"
+            android:divider="#ff0000"
+            android:paddingTop="20dp"
+           android:layout_below="@+id/middle1"
+              android:scrollbars="none"
+              android:background="#ffffff"
+            android:minHeight="100px"/>
+       </LinearLayout>     
+ 
+ 
+    </LinearLayout>    
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+         
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical" 
+    android:background="#ff0000"
+       android:paddingTop="10dp"
+ 
+    >
+
+   
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acad"
+        android:id="@+id/right2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/click"
+          android:background="@drawable/yourdrawable"
+          android:textSize="18dp"
+        />
+        
+   
+         
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/facdet"
+        android:id="@+id/middle2"
+        android:textSize="18dp"
+          android:background="@drawable/yourdrawable"
+        android:layout_centerHorizontal="true"/>
+   
+   
+ 
+         
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edule"
+        android:id="@+id/left2"
+        android:textSize="18dp"
+          android:background="@drawable/yourdrawable"
+        android:layout_alignParentLeft="true"
+         android:layout_below="@+id/click"
+       
+        />
+   
+    </RelativeLayout>  
+    <EditText
+        android:paddingLeft="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/searchbox"
+        android:paddingRight="10dp"
+     android:hint="Search"
+      android:background="#ffffff"
+         
+      
+        />
+    
+  <ListView
+            android:id="@+id/fac_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="1dp"
+            android:divider="#ff0000"
+         
+       android:background="#ffffff"
+              android:scrollbars="none"
+            android:minHeight="100px"/>
+   
+   
+   
+    </LinearLayout>
+          <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    
+         
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="#ff0000"
+       android:paddingTop="10dp"
+ 
+    android:orientation="vertical" >
+
+   
+     
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acadcal"
+          android:background="@drawable/yourdrawable"
+        android:id="@+id/middle3"
+         android:layout_centerHorizontal="true"
+       android:textSize="18dp"
+        />
+ 
+         
+   
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detail"
+          android:background="@drawable/yourdrawable"
+        android:id="@+id/left3"
+        android:layout_alignParentLeft="true"
+         android:layout_below="@+id/click"
+       android:textSize="18dp"
+        />
+    
+    </RelativeLayout>     
+        <ListView
+            android:id="@+id/acad_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="1dp"
+            android:divider="#ff0000"
+            android:layout_marginTop="20dp"
+           android:layout_below="@+id/middle3"
+              android:scrollbars="none"
+              android:background="#ffffff"
+            android:minHeight="100px"/>
+   
+        
+    </LinearLayout>
+     </ViewFlipper>
+       
+     
+        
+</LinearLayout>

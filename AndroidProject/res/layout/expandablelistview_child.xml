@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#000000"
+>
+ 
+	<TextView
+		android:id="@+id/TextViewChild01" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="50px"
+		android:textSize="30px"
+		android:layout_marginTop="20px"
+		android:layout_marginBottom="20px"
+		
+	>
+	</TextView>
+ 
+	
+ 
+	
+	
+	
+	
+ 
+ 
+ 
+</LinearLayout>

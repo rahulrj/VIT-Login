@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Subject"
+    android:id="@+id/selsub2"
+    />
+     <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Category"
+    android:id="@+id/selcat2"
+    />
+      <DatePicker
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:text="Category"
+    android:id="@+id/datepicker2"
+    />
+          <TimePicker
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:text="Category"
+    android:id="@+id/timepicker2"
+    />
+            <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:text="Category"
+    android:id="@+id/notes2"
+    />
+     <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Save"
+    android:id="@+id/save_quiz"
+    />
+           <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Delete"
+    android:id="@+id/delete_quiz"
+    />
+       
+</LinearLayout>

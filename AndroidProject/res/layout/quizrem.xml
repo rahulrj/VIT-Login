@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/yourdrawable"
+    android:orientation="vertical" >
+     <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Add Reminder"
+   
+    />
+   
+    </RelativeLayout>
+   <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Subject"
+    android:id="@+id/quizdateandtime"
+    />
+     <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Subject"
+    android:id="@+id/datetext"
+    />
+   
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Subject"
+    android:id="@+id/selsub"
+    />
+     <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Category"
+    android:id="@+id/selcat"
+    />
+      <DatePicker
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:text="Category"
+    android:id="@+id/datepicker"
+    />
+          <TimePicker
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:text="Category"
+    android:id="@+id/timepicker"
+    />
+            <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:text="Category"
+    android:id="@+id/notes"
+    />
+             <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Done"
+    android:id="@+id/post"
+    />
+     <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Edit"
+    android:id="@+id/editquiz"
+    />
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/yourdrawable"
+    android:orientation="vertical" >
+     <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Done"
+    android:gravity="center"
+    android:layout_alignParentBottom="true"
+   
+    />
+   
+    </RelativeLayout>
+   
+             
+</LinearLayout>

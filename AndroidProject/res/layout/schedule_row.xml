@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    
+  <TextView
+        android:id="@+id/sch_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alogrithms"
+        android:textSize="18dp"
+        android:padding="1dp"
+       android:scrollHorizontally="true"/>
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal" >
+    <TableRow>
+      <TextView
+        android:text="CAT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+      
+        />
+    <TextView
+        android:id="@+id/cat1_dates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="true"
+        android:text="aanshul"
+        android:layout_marginLeft="8dp"
+        />
+ <TextView
+        android:id="@+id/cat1_times"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="true"
+        android:text="aman"
+         android:layout_marginLeft="18dp"
+        />
+ <TextView
+        android:id="@+id/cat1_venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="true"
+        android:text="rahul"
+         android:layout_marginLeft="10dp"
+         android:gravity="center"
+        />
+ </TableRow>
+ <TableRow >
+  <TextView
+        android:text="CAT2 "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        />
+   <TextView
+        android:id="@+id/cat2_dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="8dp"
+          android:text="aanshul"
+        android:scrollHorizontally="true"/>
+ <TextView
+        android:id="@+id/cat2_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="18dp"
+        android:scrollHorizontally="true"/>
+ <TextView
+        android:id="@+id/cat2_venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:gravity="center"
+        android:scrollHorizontally="true"/>
+      
+  </TableRow>
+ <TableRow>
+  <TextView
+        android:text="T.E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        />
+   <TextView
+        android:id="@+id/term_dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="8dp"
+        android:scrollHorizontally="true"/>
+ <TextView
+        android:id="@+id/term_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="18dp"
+        android:scrollHorizontally="true"/>
+ <TextView
+        android:id="@+id/term_venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:gravity="center"
+        android:scrollHorizontally="true"/>
+    </TableRow>  
+  </TableLayout>
+</LinearLayout>

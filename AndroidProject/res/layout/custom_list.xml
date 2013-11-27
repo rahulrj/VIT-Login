@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mlayout"
+    android:background="#ffffff"
+    >
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/yourdrawable">
+    <Button
+            android:id="@+id/arrow_left"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:width="35dp"
+          android:layout_marginLeft="15dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="10dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/one"/>
+	<TextView
+	    android:paddingLeft="15dp"
+	    android:paddingRight="15dp"
+	    android:paddingTop="7dp"
+	    android:paddingBottom="7dp"
+    	android:id="@+id/day_of_the_week"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Monday"
+    	android:background="@drawable/yourdrawable3"
+    	android:textColor="#ffffff"
+    	android:layout_centerInParent="true"
+    	android:textSize="20dp"
+    	/>
+	<Button
+            android:id="@+id/arrow_right"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+          android:layout_marginRight="15dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/two"/>
+</RelativeLayout>
+
+<ListView
+            android:id="@+id/custom_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="2dp"
+            android:divider="#999966"
+          android:background="#ffffff"
+            android:scrollbars="none"
+           >
+    </ListView>
+   <TextView 
+       android:layout_width="5dp"
+       android:layout_height="20dp"
+       />
+
+<ListView
+            android:id="@+id/custom_nolist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="5px"
+            android:divider="#FFFFFF"
+            android:padding="4px"
+            android:layout_margin="1dp"
+            android:scrollbars="none"
+           >
+    </ListView>
+    
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent" >
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentTop="true"
+    android:id="@+id/first2"
+    android:background="@drawable/yourdrawable" >
+     <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="View Reminder"
+   android:textSize="20dp"
+   android:paddingTop="5dp"
+   android:paddingLeft="2dp"
+    />
+         </RelativeLayout>
+   <ScrollView 
+         android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#ffffff"
+    android:layout_below="@+id/first2"
+    >
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+     
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+  
+    android:orientation="vertical" >
+      <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Subject"
+   android:textSize="18dp"
+   android:textColor="#000000"
+   android:id="@+id/selsubq2"
+    />
+         <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textColor="#000000"
+    android:id="@+id/displaysubq2"
+    />
+      
+           
+       </LinearLayout>
+         <TextView
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:text=""
+    android:background="#000000"
+    />
+       
+       
+         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical" >
+      <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Category"
+   android:textSize="18dp"
+    android:textColor="#000000"
+    android:id="@+id/selcatq2"
+    />
+         <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textColor="#000000"
+    android:id="@+id/displaycatq2"
+    />
+      
+           
+       </LinearLayout>
+            <TextView
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:text=""
+    android:background="#000000"
+    />
+    
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical" >
+      <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Date and Time"
+   android:textSize="18dp"
+    android:textColor="#000000"
+    android:id="@+id/seldateandtimeq2"
+    />
+         <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textColor="#000000"
+    android:id="@+id/displaydatetime2"
+    />
+      
+           
+       </LinearLayout>
+            <TextView
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:text="Processing"
+    android:background="#000000"
+    />
+    
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    
+    android:orientation="vertical" >
+      <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Subject"
+   android:textSize="18dp"
+    android:id="@+id/selectlabel"
+   android:textColor="#000000"
+    />
+         <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Label"
+   
+       android:id="@+id/displaylabel"
+    android:textColor="#000000"
+    />
+      
+           
+       </LinearLayout>
+       <TextView
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:text=""
+ 
+    android:background="#000000"
+    />
+    
+       </LinearLayout>
+   </ScrollView> 
+   
+    
+     <Button
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="Save Changes"
+    android:background="@drawable/yourdrawable"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:id="@+id/saverem"
+    android:layout_alignParentBottom="true"/>
+     </RelativeLayout>
